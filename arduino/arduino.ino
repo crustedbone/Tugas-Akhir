@@ -32,6 +32,7 @@ void setup() {
   pinMode(triger3, OUTPUT);
   pinMode(echo3, INPUT);
 
+  //inisialisasi gerbang
   servo1.attach(servoPin1);
   servo1.write(90);
   servo2.attach(servoPin2);
